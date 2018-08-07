@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!--content-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/dimen">
+
+
+    <!--logo -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+    <!--user-->
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email :"
+        android:inputType="textEmailAddress"/>
+
+    <!--password-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password :"
+        android:inputType="textPassword"/>
+
+    <!--login-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--rgister-->
+    <TextView
+        android:id="@+id/txtRegister"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/h2"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Register"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
